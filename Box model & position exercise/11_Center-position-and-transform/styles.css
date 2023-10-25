@@ -1,0 +1,52 @@
+body {
+    background: rgb(238, 238, 238);
+    margin: 0;
+    position: relative;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    position: absolute;
+    width: 30em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    border-radius: 0.3em;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.3) ;  
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    width: 30em;
+    height: auto;
+}
+
+div:nth-child(2) {
+    padding: 20px 20px;
+}
+
+p {
+    width: 80%;
+    padding-bottom: 15px;
+    font: 1em/1.2 Georgia, serif;
+}
+
+
+a {
+    background: rgb(0, 153, 0);
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 0.2em;
+    transform: translateX(320%);  
+}
+
