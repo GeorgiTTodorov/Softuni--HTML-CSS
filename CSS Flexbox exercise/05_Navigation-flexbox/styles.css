@@ -1,0 +1,39 @@
+body {
+    padding: 2em;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+.site-heading {
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main h1 {
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+main p {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
