@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+body {
+    max-width: 75vw;
+    
+}
+
+ul {
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+li {
+    border: 9px solid black;
+    box-shadow: 
+    1px 1px 1em grey inset,
+    1px 1px 1em grey;
+    padding: 20px 15px;
+}
+
+img {
+    object-fit: contain;
+}
