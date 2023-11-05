@@ -1,0 +1,9 @@
+.masonry {
+    margin: 0px auto;
+    columns: 3;
+    column-gap: 1.5em;
+}
+
+.masonry .card {
+    margin-bottom: 1.5em;
+}
